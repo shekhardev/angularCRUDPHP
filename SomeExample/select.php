@@ -1,6 +1,6 @@
 <?php
 
-$connect = mysqli_connect("localhost", "root", "sekhar", "ajaxdb");  
+$connect = mysqli_connect("localhost", "root", "", "ajaxdb");  
  $output = array();  
  $query = "SELECT * FROM tbl_user";  
  $result = mysqli_query($connect, $query);  
